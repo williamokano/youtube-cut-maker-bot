@@ -1,0 +1,27 @@
+{
+  "name": "youtube-cut-maker-bot",
+  "version": "0.0.1",
+  "description": "Simple download, cut, edit, and upload video to make automated cuts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/williamokano/youtube-cut-maker-bot.git"
+  },
+  "keywords": [
+    "youtube",
+    "cut",
+    "maker",
+    "automated",
+    "bot",
+    "cortes"
+  ],
+  "author": "William Okano <williamokano@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/williamokano/youtube-cut-maker-bot/issues"
+  },
+  "homepage": "https://github.com/williamokano/youtube-cut-maker-bot#readme"
+}
