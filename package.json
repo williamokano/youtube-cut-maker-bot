@@ -2,7 +2,10 @@
   "name": "youtube-cut-maker-bot",
   "version": "0.0.1",
   "description": "Simple download, cut, edit, and upload video to make automated cuts",
-  "main": "index.js",
+  "main": "./bin/index.js",
+  "bin": {
+    "youtube-cut-maker": "./bin/youtube-cut-maker.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -23,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/williamokano/youtube-cut-maker-bot/issues"
   },
-  "homepage": "https://github.com/williamokano/youtube-cut-maker-bot#readme"
+  "homepage": "https://github.com/williamokano/youtube-cut-maker-bot#readme",
+  "dependencies": {
+    "commander": "^6.2.1"
+  }
 }
