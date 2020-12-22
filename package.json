@@ -28,6 +28,7 @@
   },
   "homepage": "https://github.com/williamokano/youtube-cut-maker-bot#readme",
   "dependencies": {
-    "commander": "^6.2.1"
+    "commander": "^6.2.1",
+    "youtube-dl": "^3.0.2"
   }
 }
